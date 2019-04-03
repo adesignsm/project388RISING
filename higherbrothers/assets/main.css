@@ -1,0 +1,59 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	background-image: url(HBbackground.jpg);
+	background-size: cover;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+video {
+	display: none;
+}
+
+#loading-page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+#loading-img1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#loading-img2 {
+	position: absolute;
+	top: 20%;
+	left: 14%;
+	width: 70%;
+	display: none;
+	z-index: 2;
+}
+
+#info-container {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	color: #fff;
+	font-family: Helvetica, sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+#info-container li {
+	list-style: none;
+	padding-bottom: 2%;
+}
